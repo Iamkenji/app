@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:grocery_app/screens/home/onboard.dart';
-//import 'package:grocery_app/screens/welcome_screen.dart';
+//import 'package:grocery_app/screens/home/onboard.dart';
+import 'package:grocery_app/screens/welcome_screen.dart';
 import 'package:grocery_app/styles/theme.dart';
 
 class MyApp extends StatelessWidget {
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: themeData,
-      home: Onboard(),
+      home: WelcomeScreen(),
     );
   }
 }
